@@ -1,0 +1,26 @@
+.container{
+    background-color: powderblue;
+    width:840px;
+    margin: 0 auto;
+    height: 480px;
+    padding: 15px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+ul li{
+    list-style: none;
+}
+#heading{
+    text-align: center;
+}
+#input-area{
+    background-color: white;
+    padding: 10px;
+    margin: 0 20px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+}
+#submit{
+    font-family: 'Montserrat', sans-serif;
+}

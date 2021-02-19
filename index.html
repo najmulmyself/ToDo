@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <title>To-Do App</title>
+</head>
+<body>
+    <div class="container">
+        <h2 id="heading">TO DO APP</h2>
+        <div id="input-area">
+            Add New Task
+            <input id="input-task" type="text" placeholder="add your task">
+            <button id="submit-btn" type="submit">Add Task</button>
+        </div>
+        <div>
+            <h3>Incomplete Task</h3>
+            <ul>
+                <li>
+                    <input type="checkbox"> <label>Task Name</label>
+                </li>
+                <li>
+                    <input type="checkbox"> <label>Task Name</label>
+                </li>
+                <li>
+                    <input type="checkbox"> <label>Task Name</label>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h3>Completed Task</h3>
+            <ul>
+                <li>Task Name <button type="submit">Delete</button></li>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
