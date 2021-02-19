@@ -1,3 +1,4 @@
+
 .container{
     background-color: powderblue;
     width:640px;
@@ -7,8 +8,15 @@
     border-radius: 10px;
     font-family: 'Montserrat', sans-serif;
 }
-ul li{
+ul{
     list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 15px;
+}
+li{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding:5px 0;
 }
 #heading{
     text-align: center;
@@ -16,10 +24,16 @@ ul li{
 #input-area{
     background-color: white;
     padding: 10px;
-    margin: 0 20px;
+    /* margin: 0 20px; */
     text-align: center;
     border-radius: 10px;
     border: 2px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 50px;
+}
+h3 {
+    margin: 0;
+    text-transform: uppercase;
+    color: grey;
 }
 #input-task{
     margin: 0 10px;
@@ -29,7 +43,7 @@ ul li{
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 3px;
 }
-#submit-btn{
+.btn{
     font-family: 'Montserrat', sans-serif;
     padding: 5px 5px;
     border-radius: 3px;
@@ -42,4 +56,13 @@ ul li{
     display: inline-block;
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 5px;
+    padding: 20px;
+}
+#completed-task{
+    float: right;
+    width: 30%;
+}
+#incomplete-task{
+    float: left;
+    width: 30%;
 }
