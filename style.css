@@ -1,6 +1,6 @@
 .container{
     background-color: powderblue;
-    width:840px;
+    width:640px;
     margin: 0 auto;
     height: 480px;
     padding: 15px;
@@ -21,6 +21,25 @@ ul li{
     border-radius: 10px;
     border: 2px solid rgba(0, 0, 0, 0.2);
 }
-#submit{
+#input-task{
+    margin: 0 10px;
+    width: 50%;
+    margin: 3px 5px;
+    padding: 5px 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+}
+#submit-btn{
     font-family: 'Montserrat', sans-serif;
+    padding: 5px 5px;
+    border-radius: 3px;
+    /* border: 1px solid rgba(0, 0, 0, 0.2); */
+    border: none;
+    background-color: powderblue;
+}
+.task-field{
+    background-color: white;
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
 }
