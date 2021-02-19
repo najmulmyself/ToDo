@@ -47,9 +47,17 @@ h3 {
     font-family: 'Montserrat', sans-serif;
     padding: 5px 5px;
     border-radius: 3px;
-    /* border: 1px solid rgba(0, 0, 0, 0.2); */
     border: none;
-    background-color: powderblue;
+    cursor: pointer;
+}
+#submit-btn{
+    background-color: green ;
+    color: white;
+}
+.btn-complete{
+    background-color: red;
+    color: white;
+    margin-left: 5px;
 }
 .task-field{
     background-color: white;
